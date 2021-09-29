@@ -10,7 +10,7 @@
         <!--Sound Recorder View Controller-->
         <scene sceneID="Z4J-gy-EjA">
             <objects>
-                <viewController id="ds9-nE-Ojt" customClass="SoundRecorderViewController" customModule="VoiceChangerSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SoundRecorder" id="ds9-nE-Ojt" customClass="SoundRecorderViewController" customModule="VoiceChangerSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="R8w-iV-PPg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,7 +51,7 @@
         <!--Sound Player View Controller-->
         <scene sceneID="pGB-LL-FIs">
             <objects>
-                <viewController storyboardIdentifier="SoundPlayerViewController" id="81L-dA-Uxk" customClass="SoundPlayerViewController" customModule="VoiceChangerSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SoundPlayer" id="81L-dA-Uxk" customClass="SoundPlayerViewController" customModule="VoiceChangerSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q7g-JK-gOp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -141,9 +141,9 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="QKY-I4-Pdd"/>
                                         <exclude reference="E0n-oS-slg"/>
                                         <exclude reference="Hkq-nN-iI0"/>
+                                        <exclude reference="QKY-I4-Pdd"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=compact-widthClass=compact">
