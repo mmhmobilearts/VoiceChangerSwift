@@ -27,7 +27,7 @@ extension SoundRecorderRouter: SoundRecorderInternalRouting {
     {
         let bundle = Bundle(for: type(of:self))
         let storyboard = UIStoryboard(name: "Main", bundle: bundle)
-        guard let soundPlayerViewController = storyboard.instantiateViewController(withIdentifier: "SoundPlayerViewController") as? SoundPlayerViewController
+        guard let soundPlayerViewController = storyboard.instantiateViewController(withIdentifier: "SoundPlayer") as? SoundPlayerViewController
         else { return }
         let soundPlayer = SoundPlayer(recordedAudioUrl: audioFileUrl, display: soundPlayerViewController)
         soundPlayerViewController.soundPlayer = soundPlayer
