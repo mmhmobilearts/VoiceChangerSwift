@@ -1,9 +1,9 @@
 //
 //  SoundPlayerViewController.swift
-//  PitchPerfect
+//  VoiceChanger
 //
-//  Created by Davit Mirzoyan on 1/5/19.
-//  Copyright © 2019 Udacity. All rights reserved.
+//  Created by VoiceChanger on 1/5/19.
+//  Copyright © 2019 VoiceChanger. All rights reserved.
 //
 
 import UIKit
@@ -50,7 +50,7 @@ public class SoundPlayerViewController: UIViewController {
     private func setupTitle() {
         let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
         navigationController?.navigationBar.titleTextAttributes = textAttributes
-        title = "Pitch Perfect"
+        title = "Voice Changer"
     }
     
     @IBAction func playSoundForButton(_ sender: UIButton) {

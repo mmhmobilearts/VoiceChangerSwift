@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  pitch-perfect
 //
-//  Created by Davit Mirzoyan on 12/27/18.
-//  Copyright © 2018 Udacity. All rights reserved.
+//  Created by VoiceChanger on 12/27/18.
+//  Copyright © 2018 VoiceChanger. All rights reserved.
 //
 
 import UIKit

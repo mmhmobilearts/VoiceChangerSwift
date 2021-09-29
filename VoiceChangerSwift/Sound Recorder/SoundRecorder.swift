@@ -1,9 +1,9 @@
 //
 //  SoundRecorder.swift
-//  PitchPerfect
+//  VoiceChanger
 //
-//  Created by Davit Mirzoyan on 1/14/19.
-//  Copyright © 2019 Udacity. All rights reserved.
+//  Created by VoiceChanger on 1/14/19.
+//  Copyright © 2019 VoiceChanger. All rights reserved.
 //
 
 import Foundation
